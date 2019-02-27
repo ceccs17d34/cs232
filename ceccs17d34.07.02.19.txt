@@ -215,16 +215,3 @@ join: b.txt:2: is not sorted:
 exit
 
 Script done on Thursday 07 February 2019 05:34:26 PM IST
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
