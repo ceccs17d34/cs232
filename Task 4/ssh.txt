@@ -1,0 +1,41 @@
+Script started on Monday 06 May 2019 09:54:29 AM IST
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ ssh cs17d34@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d34@192.168.0.30's password: 
+Permission denied, please try again.
+cs17d34@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+55 packages can be updated.
+0 updates are security updates.
+
+
+The programs included with elementary OS are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+elementary OS comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+$ dir
+examples.desktop
+$ pwd
+/home/cs17d34
+$ mkdir sha
+$ dir
+examples.desktop  sha
+$ rnd  mdir sha
+$ dir
+examples.desktop
+$ exit
+Connection to 192.168.0.30 closed.
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Monday 06 May 2019 09:57:02 AM IST

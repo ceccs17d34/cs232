@@ -1,0 +1,13 @@
+Script started on Monday 06 May 2019 09:57:35 AM IST
+\]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ \[Kscp ssh.txt cs17d34@192.168.0.30 [K: [K\[K/home/cs17d34
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d34@192.168.0.30's password: 
+ssh.txt                                         0%    0     0.0KB/s   --:-- ETAssh.txt                                       100% 1173     1.2KB/s   00:00    
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Monday 06 May 2019 10:01:58 AM IST
