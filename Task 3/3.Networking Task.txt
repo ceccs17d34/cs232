@@ -1,0 +1,62 @@
+Script started on Monday 06 May 2019 09:37:07 AM IST
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ ifconfig
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:d1:a8  
+          inet addr:192.168.0.131  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::73f7:bc84:acd6:bedd/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5179 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:348 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:445779 (445.7 KB)  TX bytes:51800 (51.8 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:56 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3704 (3.7 KB)  TX bytes:3704 (3.7 KB)
+
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ if [Kconfig-a[K[K a[K-a
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:d1:a8  
+          inet addr:192.168.0.131  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::73f7:bc84:acd6:bedd/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5484 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:372 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:471236 (471.2 KB)  TX bytes:61238 (61.2 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:56 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3704 (3.7 KB)  TX bytes:3704 (3.7 KB)
+
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ ifconfig -[Kenp2s0
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:d1:a8  
+          inet addr:192.168.0.131  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::73f7:bc84:acd6:bedd/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5737 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:380 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:490054 (490.0 KB)  TX bytes:61718 (61.7 KB)
+
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ if [Kconfig -a[K[Kenp2s0 down
+SIOCSIFFLAGS: Operation not permitted
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ sudo ifconfig enp2s0 down[1@s[1@u[1@d[1@o[1@ 
+sudo: unable to resolve host CC2-26: Connection timed out
+[sudo] password for clab1: 
+Sorry, try again.
+[sudo] password for clab1: 
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ sudo ifconfig enp2s0 down[K[K[K[Kup
+sudo: unable to resolve host CC2-26: Connection timed out
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Monday 06 May 2019 09:41:42 AM IST
