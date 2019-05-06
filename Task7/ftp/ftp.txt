@@ -1,0 +1,71 @@
+Script started on Monday 06 May 2019 10:24:02 AM IST
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ sudo apt-get install vsftpd
+sudo: unable to resolve host CC2-26: Connection timed out
+[sudo] password for clab1: 
+Sorry, try again.
+[sudo] password for clab1: 
+Sorry, try again.
+[sudo] password for clab1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.8.0-36 linux-headers-4.8.0-36-generic
+  linux-image-4.8.0-36-generic linux-image-extra-4.8.0-36-generic
+  snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 32 not upgraded.
+2 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Setting up nginx-core (1.10.3-0ubuntu0.16.04.3) ...
+Setting up nginx (1.10.3-0ubuntu0.16.04.3) ...
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:clab1): 
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> pwd
+257 "/home/clab1" is the current directory
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    5 1000     1000         4096 May 06 10:24 Desktop
+drwxr-xr-x    2 1000     1000         4096 Nov 03  2018 Documents
+drwxr-xr-x    2 1000     1000         4096 Apr 25 10:14 Downloads
+drwxr-xr-x    4 1000     1000         4096 Mar 18 09:53 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 11 11:56 Pictures
+drwxr-xr-x    2 1000     1000         4096 Nov 03  2018 Public
+drwxr-xr-x    2 1000     1000         4096 Nov 03  2018 Templates
+drwxr-xr-x    2 1000     1000         4096 Nov 03  2018 Videos
+-rwxrwxr-x    1 1000     1000         9080 Feb 25 13:58 a.out
+-rw-rw-r--    1 1000     1000        41790 Apr 25 11:37 apache.txt
+-rw-rw-r--    1 1000     1000         2183 Apr 04 10:40 ceccs17d05-04-04-2019.txt
+-rw-rw-r--    1 1000     1000         8192 Apr 29 11:36 ceccs17d05-29-04-19.txt
+-rw-rw-r--    1 1000     1000       143360 Mar 11 11:36 ceccs17d26.11.10.19.txt
+---------x    1 1000     1000           19 Feb 25 13:55 employee.txt
+-rw-r--r--    1 1000     1000         8980 Nov 02  2018 examples.desktop
+-rw-rw-r--    1 1000     1000     65642496 Mar 25 10:47 ftpusage.txt
+-rw-rw-r--    1 1000     1000           41 Apr 25 09:39 hello.perl
+-rw-rw-r--    1 1000     1000           54 Apr 25 09:48 hello.pl
+-rw-rw-r--    1 1000     1000          183 May 06 09:36 nt.txt
+-rw-rw-r--    1 1000     1000      4421131 Apr 25 10:36 package
+-rw-rw-r--    1 1000     1000          297 Apr 25 10:48 package_management.sh
+-rw-rw-r--    1 1000     1000         4775 Apr 29 10:53 perl.txt
+drwxrwxrwx    2 1000     1000         4096 Nov 09 13:25 prn
+-rw-rw-r--    1 1000     1000            0 May 06 09:54 ssh.txt
+-rw-rw-r--    1 1000     1000           93 Apr 25 10:02 sum.pl
+-rw-rw-r--    1 1000     1000          649 Feb 25 13:57 syscalls.c
+-rw-rw-r--    1 1000     1000         4096 Apr 11 10:05 temp.txt
+226 Directory send OK.
+ftp> bye
+221 Goodbye.
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Monday 06 May 2019 10:31:15 AM IST

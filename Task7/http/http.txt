@@ -1,0 +1,92 @@
+Script started on Monday 06 May 2019 11:05:49 AM IST
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ sudo apt-ge[Ket install nginx
+[sudo] password for clab1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.8.0-36 linux-headers-4.8.0-36-generic
+  linux-image-4.8.0-36-generic linux-image-extra-4.8.0-36-generic
+  snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 32 not upgraded.
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ service nginx status
+[?1h=[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en[m
+   Active: [0;1;32mactive (running)[0m since Mon 2019-05-06 10:58:52 IST; 16min ago[m
+  Process: 937 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=[m
+  Process: 899 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process o[m
+ Main PID: 939 (nginx)[m
+   CGroup: /system.slice/nginx.service[m
+           ├─939 nginx: master process /usr/sbin/nginx -g daemon on; master_proc[m
+           ├─940 nginx: worker process                           [m
+           ├─941 nginx: worker process                           [m
+           ├─942 nginx: worker process                           [m
+           └─943 nginx: worker process                           [m
+[m
+May 06 10:58:50 CC2-26 systemd[1]: Starting A high performance web server and a [m
+May 06 10:58:52 CC2-26 systemd[1]: Started A high performance web server and a r[m
+[7mlines 1-15/15 (END)[27m[K[K[?1l>]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ sudo gedit [K /etc/nginx/sites-enabled/default[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K sites-availablk[Ke/ sites-enab led/
+cd --     ^C
+]0;clab1@CC2-26: ~/Desktop[01;32mclab1@CC2-26[00m:[01;34m~/Desktop[00m$ cd --[K[K..
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ dir
+a.out			   Downloads	     nt.txt		    ssh.txt
+apache.txt		   employee.txt      package		    sum.pl
+ceccs17d05-04-04-2019.txt  examples.desktop  package_management.sh  syscalls.c
+ceccs17d05-29-04-19.txt    ftpusage.txt      perl.txt		    Templates
+ceccs17d26.11.10.19.txt    hello.perl	     Pictures		    temp.txt
+Desktop			   hello.pl	     prn		    Videos
+Documents		   Music	     Public
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ cd ....[K[K
+]0;clab1@CC2-26: /home[01;32mclab1@CC2-26[00m:[01;34m/home[00m$ dir
+clab1  fdp  psc  s4c47	s4d1  tr
+]0;clab1@CC2-26: /home[01;32mclab1@CC2-26[00m:[01;34m/home[00m$ cd ..
+]0;clab1@CC2-26: /[01;32mclab1@CC2-26[00m:[01;34m/[00m$ dir
+bin    core  home	     lib	 media	proc  sbin  sys  var
+boot   dev   initrd.img      lib64	 mnt	root  snap  tmp  vmlinuz
+cdrom  etc   initrd.img.old  lost+found  opt	run   srv   usr  vmlinuz.old
+]0;clab1@CC2-26: /[01;32mclab1@CC2-26[00m:[01;34m/[00m$ cd var
+]0;clab1@CC2-26: /var[01;32mclab1@CC2-26[00m:[01;34m/var[00m$ dir
+backups  crash	local  log   metrics  run   spool  www
+cache	 lib	lock   mail  opt      snap  tmp
+]0;clab1@CC2-26: /var[01;32mclab1@CC2-26[00m:[01;34m/var[00m$ cd www
+]0;clab1@CC2-26: /var/www[01;32mclab1@CC2-26[00m:[01;34m/var/www[00m$ dir
+gci  html
+]0;clab1@CC2-26: /var/www[01;32mclab1@CC2-26[00m:[01;34m/var/www[00m$ cd html
+]0;clab1@CC2-26: /var/www/html[01;32mclab1@CC2-26[00m:[01;34m/var/www/html[00m$ dir
+index.html  index.nginx-debian.html
+]0;clab1@CC2-26: /var/www/html[01;32mclab1@CC2-26[00m:[01;34m/var/www/html[00m$ cd index.nginx-debia[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd[Kgedit index.nginx-debian.html 
+]0;clab1@CC2-26: /var/www/html[01;32mclab1@CC2-26[00m:[01;34m/var/www/html[00m$ gedit index.nginx-debian.html [1@s[1@u[1@d[1@o[1@ 
+
+(gedit:2987): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:2987): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:2987): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:2987): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;clab1@CC2-26: /var/www/html[01;32mclab1@CC2-26[00m:[01;34m/var/www/html[00m$ cat index.n`[Kginx-debian.html 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>Sucessfully Edited nginx</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+]0;clab1@CC2-26: /var/www/html[01;32mclab1@CC2-26[00m:[01;34m/var/www/html[00m$ exit
+exit
+
+Script done on Monday 06 May 2019 11:26:19 AM IST
