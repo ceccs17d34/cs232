@@ -1,0 +1,41 @@
+Script started on 2019-05-11 21:08:25+0530
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop[00m$ exitsudo apt-get install per1[Kl
+[sudo] password for shabeerdas: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version (5.26.1-6ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 258 not upgraded.
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop[00m$ mkdir perl
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop[00m$ cd perl
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ cat >> hellp[Ko.pl
+^^?  #! /usr/bin/perl
+use strict: ;
+use warnings;
+print "Hello\n";
+^C
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ perl hello.pl
+syntax error at hello.pl line 2, near "use strict:"
+BEGIN not safe after errors--compilation aborted at hello.pl line 3.
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ cat >> hello.pl
+#! /usr/bin/perl
+use strict: ;
+use warnings;
+print "Hello\n";^[[A^[[A        ^[[A     ^[[D                   ^C
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ cat >> hello.pl[2Pperl[C[C[C[C[C[C[C[C[C[2@cat >>[C[C[C[C[C[C[C[C[C
+#!    #!/usr/bin/perl
+use strict;
+use warnings;
+print "Hello, World!\n";
+^C
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ ls
+hello.pl
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ perl hello.pl
+syntax error at hello.pl line 2, near "use strict:"
+BEGIN not safe after errors--compilation aborted at hello.pl line 3.
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ perl hello.pl
+Hello, World!
+]0;shabeerdas@shabeerdas-VirtualBox: ~/Desktop/perl[01;32mshabeerdas@shabeerdas-VirtualBox[00m:[01;34m~/Desktop/perl[00m$ exit
+exit
+
+Script done on 2019-05-11 21:17:53+0530
